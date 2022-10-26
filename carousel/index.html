@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="covid test data">
+    <meta name="author" content="Huiyan Huang">
+    <title>COVID-19</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="carousel.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="https://ourworldindata.org/coronavirus">COVID DATA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.mayoclinic.org/diseases-conditions/coronavirus/symptoms-causes/syc-20479963">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"  href="https://www.who.int/health-topics/coronavirus#tab=tab_1">More information</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main>
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+                    aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="banner1.png"  width="100%"/>
+                <div class="container">
+                    <div class="carousel-caption text-start">
+                        <h1>Stop Covid-19 spread</h1>
+                        <p class="subtitle">The major objective at this point in the outbreak is to stop the spread of the Covid-19.</p>
+                        <p><a class="btn btn-lg btn-primary" href="https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/prevention.html#:~:text=at%20one%20location.-,Avoiding%20Contact%20with%20People%20Who%20Have%20Suspected%20or%20Confirmed%20COVID,can%20safely%20end%20home%20isolation.">Browse more</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="banner2.jpg"  width="100%"/>
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>The influence of Covid-19.</h1>
+                        <p  class="subtitle">Covid-19 brings several negative effcet to human society.</p>
+                        <p><a class="btn btn-lg btn-primary" href="https://www.who.int/news/item/13-10-2020-impact-of-covid-19-on-people's-livelihoods-their-health-and-our-food-systems#:~:text=The%20economic%20and%20social%20disruption,the%20end%20of%20the%20year.">Learn more</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="banner4.png" width="100%"/>
+                <div class="container">
+                    <div class="carousel-caption text-end">
+                        <h1 class="text-secondary">How to prevent Covid-19</h1>
+                        <p class="subtitle">Keep waring mask in indoor areas.</p>
+                        <p><a class="btn btn-lg btn-primary" href="https://www.undp.org/myanmar/news/seven-simple-steps-protect-yourself-and-others-covid-19?utm_source=EN&utm_medium=GSR&utm_content=US_UNDP_PaidSearch_Brand_English&utm_campaign=CENTRAL&c_src=CENTRAL&c_src2=GSR&gclid=CjwKCAjw79iaBhAJEiwAPYwoCEQojRUzUjiq7s94hJjldw7N-IYjEdvG9CQgmsM5_FunhcJlG7_dHRoCNxwQAvD_BwE">Browse gallery</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="unions.png" class="profile-img"/>
+                <h2 class="fw-normal">United Nation</h2>
+                <p>United Nation does help different countries in preveting the spread of different diseases.</p>
+                <p><a class="btn btn-secondary" href="https://www.un.org/en/">View details &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img src="australia.png" class="profile-img">
+                <h2 class="fw-normal">Australia</h2>
+                <p>Australia does make an excellent effort in preveting Covid-19, for more information, please click the button below.</p>
+                <p><a class="btn btn-secondary" href="https://www.health.gov.au/health-alerts/covid-19">View details &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img src="America.png" class="profile-img">
+
+                <h2 class="fw-normal">America</h2>
+                <p>America had been seiously infected by Covid-19, please click the button below for more information.</p>
+                <p><a class="btn btn-secondary" href="https://www.hhs.gov/coronavirus/index.html">View details &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+
+
+        <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading fw-normal lh-1">Daily new conformed Covid-19 Cases<span class="text-muted"> per million people</span>
+                </h2>
+                <p class="lead">The graph displays the number of daily Covi-19 confirmed cases in the US, UK, and Australia. The United Kingdom has the highest rate of convictions as of January 2021. There were almost zero daily confirmed cases in Australia from February to October. But it had reached its peak in January and dropped to its lowest point in February. Despite occasional ups and downs, the overall trend is still downward.</p>
+            </div>
+            <div class="col-md-5">
+               <img src="figure1.png" width="100%">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading fw-normal lh-1">Daily confirmed death <span class="text-muted"> per million people.</span>
+                </h2>
+                <p class="lead">The death rates of Covid-19 from Australia, the United States, the United Kingdom, and China are displayed on this graph. Really surprising is the Covid-19 mortality rate in China. However, from May 2020 to February 2021, the United Kingdom twice hit the summit. The United States has the highest death rate of Covid-19 from September 2021 to May 2022. Australia, however, had reached its pinnacle between July and October.</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img src="figure2.png" width="100%">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading fw-normal lh-1">Daily vaccine administered. <span
+                        class="text-muted"> per five million</span></h2>
+                <p class="lead">This graph illustrates the immunisation rates in Australia, the US, the UK, and China. Initially, America had the greatest vaccination rate. China, however, started to climb to the little peak starting in February 2020. After then, America's vaccination rate increased a little, but from February 2020 to October 2022, China began to surpass America as the nation with the highest vaccination rate. Even if it fell to the lowest point from mid-September to mid-December, it is still the highest when compared to other nations.</p>
+            </div>
+            <div class="col-md-5">
+                <img src="figure3.png" width="100%">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading fw-normal lh-1">Total Covid-19 cases test <span class="text-muted"> for different countries.</span>
+                </h2>
+                <p class="lead">The entire Covid-19 test in the United States, the United Kingdom, Australia, and New Zealand are displayed on this graph. It is astonishing to discover that from May 2020 to June 2022, the United States had the largest number of tests. Australia comes in third place, followed by the United Kingdom. It is most likely because America has a greater population than these other countries, which results in higher test results.</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img src="figure4.png" width="100%">
+            </div>
+        </div>
+        <hr class="featurette-divider">
+
+        <div class="row">
+            <div class="col-12">
+                <h2 class="featurette-heading fw-normal lh-1 text-center">Covid-19 General Information <span class="text-muted"> about preventing</span>
+                </h2>
+                <p class="lead">The SARS-CoV-2 virus is the infectious illness known as coronavirus disease (COVID-19). The majority of virus-infected individuals will have a mild to severe respiratory disease and will recover without the need for special care. However, some people will get serious illnesses and need to see a doctor. Serious sickness is more likely to strike older persons and those with underlying medical illnesses including cancer, diabetes, cardiovascular disease, or chronic respiratory diseases. COVID-19 can cause anyone to get very ill or pass away at any age.</p>
+
+
+                 <p class="lead"> Being knowledgeable about the illness and the virus's propagation is the greatest strategy to stop or slow down transmission. By keeping a distance of at least one metre between people, using a mask that fits properly, and often washing your hands or using an alcohol-based rub, you may prevent infection in both yourself and other people. When it's your turn, get your vaccination, and abide by any local advice.</p>
+
+
+                  <p class="lead"> When an infected person coughs, sneezes, speaks, sings, or breathes, the virus can spread from their mouth or nose in minute liquid particles. From larger respiratory droplets to tiny aerosols, these particles are diverse. It's crucial to use proper respiratory technique, such as coughing into a flexed elbow, and to confine yourself to your house and rest until you feel better.</p>
+                  </div>
+                 <p> Reference list:</p>
+                    </div>
+        
+               <p>  Mathieu, E., Ritchie, H., Rodés-Guirao, L., Appel, C., Giattino, C., Hasell, J., Macdonald, B., Dattani, S., Beltekian, D., Ortiz-Ospina, E., &amp; Roser, M. (2020, March 5). Coronavirus (COVID-19) cases. Our World in Data. Retrieved October 25, 2022, from https://ourworldindata.org/covid-cases 
+                 </p>
+
+                  <p> Mathieu, E., Ritchie, H., Rodés-Guirao, L., Appel, C., Giattino, C., Hasell, J., Macdonald, B., Dattani, S., Beltekian, D., Ortiz-Ospina, E., &amp; Roser, M. (2020, March 5). Coronavirus (COVID-19) deaths. Our World in Data. Retrieved October 25, 2022, from https://ourworldindata.org/covid-deaths  </p>
+
+                <p> Mathieu, E., Ritchie, H., Rodés-Guirao, L., Appel, C., Giattino, C., Hasell, J., Macdonald, B., Dattani, S., Beltekian, D., Ortiz-Ospina, E., &amp; Roser, M. (2020, March 5). Coronavirus (COVID-19) vaccinations. Our World in Data. Retrieved October 25, 2022, from https://ourworldindata.org/covid-vaccinations  </p>
+
+                 <p> Total Covid-19 Tests. Our World in Data. (n.d.). Retrieved October 25, 2022, from https://ourworldindata.org/grapher/full-list-total-tests-for-covid-19?country=USA~NZL~AUS~GBR  </p>
+
+                  <p> World Health Organization. (n.d.). Coronavirus. World Health Organization. Retrieved October 25, 2022, from https://www.who.int/health-topics/coronavirus#tab=tab_1 </p>
+
+                <p> Here is the picture reference list:
+
+                  </p>
+                  <p>American Physiologyical Society. (n.d.). COVID-19 Resources. photograph. Retrieved October 26, 2022, from https://www.physiology.org/career/teaching-learning-resources/covid-19-resources?SSO=Y. </p>
+
+                  <p>Callysto. (2020). COVID-19 and Log Scales. photograph, Callysto. Retrieved October 25, 2022, from https://www.callysto.ca/2020/11/26/data-visualization-of-the-week-covid-19-and-log-scales/</p>
+
+                  <p> Cepal. (n.d.). COVID-19 Observatory in Latin America and the Caribbean Economic and social impact. photograph, Cepal. Retrieved October 26, 2022, from https://www.cepal.org/en/subtopics/covid-19 </p>
+
+                  <p> Global Disaster Preparedness Center Center. (2022). Vaccination against COVID-19. photograph, Global Disaster Preparedness Center Center. Retrieved October 26, 2022, from https://preparecenter.org/toolkit/healthhelpdesk/vaccination-against-covid-19/</p>
+
+                   <p>The New York Times. (2022). Tracking Coronavirus in Australia: Latest Map and Case Count. photograph. Retrieved October 26, 2022, from https://www.nytimes.com/interactive/2021/world/australia-covid-cases.html. </p>
+
+                  <p>United Nation. (n.d.). Administrative Instruction ST/AI/189/Add.9/Rev.1. photograph, Behance. Retrieved October 26, 2022, from https://www.behance.net/unitednations </p>
+                  <p> 
+
+
+
+        <hr class="featurette-divider">
+
+        <!-- /END THE FEATURETTES -->
+
+    </div><!-- /.container -->
+
+
+    <!-- FOOTER -->
+    <footer class="container">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>&copy; 2022 Huiyan Huang &middot; <a href="https://www.instagram.com/little_elephant11.2/">Personal Information</a> &middot; <a href="https://www.instagram.com/little_elephant11.2/">Contact</a></p>
+    </footer>
+</main>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+</html>
